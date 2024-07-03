@@ -11,7 +11,11 @@ background: #1c2754;
 }
 
 main{
-    background-color: #004480;
+    background:url("./imagen.jpg");
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+
 }
 
 footer{
