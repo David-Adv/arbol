@@ -26,6 +26,16 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+} 
+
+.caja p{
+    margin-top: 10px;
+    text-transform: uppercase;
+    border: 2px solid white;
+    padding: 1.5rem;
+    border-radius: 5px;
+    background: url(https://us.123rf.com/450wm/phochi1981/phochi19811711/phochi1981171100105/90388100-vector-degradado-azul-oscuro-moderno-elegante-con-iluminaci%C3%B3n-en-la-parte-superior-del-fondo.jpg);
+
 }
 
 .subCaja{
@@ -33,4 +43,14 @@ align-items: center;
     display: flex;
     justify-content: space-around;
     /* align-items:; */
+}
+
+.subCaja div{
+    margin-top: 10px;
+    text-transform: uppercase;
+    border: 2px solid white;
+    padding: 1.5rem;
+    border-radius: 5px;
+    background: url(https://us.123rf.com/450wm/phochi1981/phochi19811711/phochi1981171100105/90388100-vector-degradado-azul-oscuro-moderno-elegante-con-iluminaci%C3%B3n-en-la-parte-superior-del-fondo.jpg);
+
 }
