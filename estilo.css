@@ -11,11 +11,14 @@ background: #1c2754;
 }
 
 main{
+    display: flex;
     background:url("./imagen.jpg");
     background-size: cover;
     background-position: center;
     object-fit: cover;
-
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
 }
 
 footer{
@@ -43,6 +46,7 @@ align-items: center;
 }
 
 .subCaja{
+    gap: 2rem;
     width: 100%;
     display: flex;
     justify-content: space-around;
