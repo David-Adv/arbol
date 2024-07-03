@@ -1,0 +1,36 @@
+*{
+margin: 0;
+padding: 0;
+}
+.lona{
+    color: white;
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+background: #1c2754;
+}
+
+main{
+    background-color: #004480;
+}
+
+footer{
+    background: #1c2754;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 15px;
+}
+.caja{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.subCaja{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* align-items:; */
+}
